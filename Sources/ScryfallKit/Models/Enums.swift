@@ -39,5 +39,5 @@ public enum Format: String, CaseIterable, Sendable {
 
 /// Currency types that Scryfall provides prices for
 public enum Currency: String, CaseIterable, Sendable {
-  case usd, eur, tix, usdFoil, usdEtched
+  case usd, usdFoil, usdEtched, eur, eurFoil, eurEtched, tix
 }
