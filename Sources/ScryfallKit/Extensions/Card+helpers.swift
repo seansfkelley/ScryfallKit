@@ -44,6 +44,8 @@ extension Card {
       return legalities.oathbreaker ?? .notLegal
     case .standardbrawl:
       return legalities.standardbrawl ?? .notLegal
+    case .competitivebrawl:
+      return legalities.competitivebrawl ?? .notLegal
     case .alchemy:
       return legalities.alchemy ?? .notLegal
     case .paupercommander:
@@ -56,6 +58,8 @@ extension Card {
       return legalities.premodern ?? .notLegal
     case .predh:
       return legalities.predh ?? .notLegal
+    case .tlr:
+      return legalities.tlr ?? .notLegal
     }
   }
 
